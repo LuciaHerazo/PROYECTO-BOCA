@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style-L.Tareas.css">
+    <title>LISTA DE TAREAS</title>
+</head>
+
+<body>
+    <h1>LISTA DE TAREAS</h1>
+    <div class="container">
+        <div>
+            <form id="formulario">
+                <p class="titulo">Agrega Tú Tarea</p>
+                <div class="inputs">
+                    <label for="tarea">Tarea</label>
+                    <input type="text" id="tarea">
+                </div>
+                <div class="inputs">
+                    <label for="descripcion">Descripción</label>
+                    <input type="text" id="descripcion">
+                </div>
+                <input class="submit" type="submit" value="ENVIAR">
+            </form>
+            <div id="alerta" class="alerta">
+                DATOS ENVIADOS
+            </div>
+        </div>
+        <div>
+            <div class="tareas">
+                <p class="titulo">LISTA DE TAREAS</p>
+                <div id="tareas">
+
+
+                    <div class="tarea">
+                        <h5>Realizar actualización a la página web</h5>
+                        <p>esta semana sera solo para actualizar la pagina y entregarlo</p>
+                        <div class="botones">
+                            <button class="boton boton-delete" data-id="1">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                            <button class="boton boton-check" data-id="1">
+                                <i class="fa-solid fa-check"></i>
+                                <!-- <i class="fa-solid fa-check-double"></i> -->
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tarea">
+                        <h5>Leer pagina 1 al 20</h5>
+                        <p>Adelantar lectura del libro de HTML, CSS y Javascript</p>
+                        <div class="botones">
+                            <button class="boton boton-delete" data-id="1">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                            <button class="boton boton-check" data-id="1">
+                                <i class="fa-solid fa-check"></i>
+                                <!-- <i class="fa-solid fa-check-double"></i> -->
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tarea">
+                        <h5>Editar Front-end de la pagina Boca</h5>
+                        <p>Realizare mejoras y actualizacion a la interfaz del login</p>
+                        <div class="botones">
+                            <button class="boton boton-delete" data-id="1">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                            <button class="boton boton-check" data-id="1">
+                                <i class="fa-solid fa-check"></i>
+                                <!-- <i class="fa-solid fa-check-double"></i> -->
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tarea">
+                        <h5>Realizar las correcciones otográficas</h5>
+                        <p>verificar y corregir ortografia </p>
+                        <div class="botones">
+                            <button class="boton boton-delete" data-id="1">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                            <button class="boton boton-check" data-id="1">
+                                <i class="fa-solid fa-check"></i>
+                                <!-- <i class="fa-solid fa-check-double"></i> -->
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="tarea">
+                        <h5>Aprender modificar y mejorar la plataformas BOCA</h5>
+                        <p>cumplire con todo lo solicitado</p>
+                        <div class="botones">
+                            <button class="boton boton-delete">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                            <button class="boton boton-check">
+                                <i class="fa-solid fa-check"></i>
+                                <!-- <i class="fa-solid fa-check-double"></i> -->
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
